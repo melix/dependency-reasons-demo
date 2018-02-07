@@ -191,7 +191,7 @@ com.google.guava:guava:17.0 (Guava supercedes Google collections)
 
 ```
 
-See [with-with-component-md-rule/build.gradle.kts](with-with-component-md-rule/build.gradle.kts)
+See [with-with-component-md-rule/build.gradle.kts](with-component-md-rule/build.gradle.kts)
 
 ### Using published metadata
 
