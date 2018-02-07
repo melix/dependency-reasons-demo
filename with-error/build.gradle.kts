@@ -3,3 +3,5 @@ dependencies {
     "implementation"("com.google.collections:google-collections:1.0")
 }
 
+val focus by extra { "google" }
+

@@ -9,4 +9,14 @@ allprojects {
 
     }
 
+
+    tasks {
+        "report"(DependencyInsightReportTask::class) {
+            val focus by project
+            configuration = configurations.getByName("compileClasspath")
+            setDependencySpec({ it.requested.displayName.contains(focus as String)})
+        }
+    }
+
+
 }

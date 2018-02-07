@@ -10,3 +10,5 @@ dependencies {
 
     "implementation"("org.ow2.asm:asm")
 }
+
+val focus by extra { "asm" }

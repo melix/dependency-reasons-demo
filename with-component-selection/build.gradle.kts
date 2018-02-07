@@ -10,3 +10,4 @@ configurations.all {
     }
 }
 
+val focus by extra { "google" }
