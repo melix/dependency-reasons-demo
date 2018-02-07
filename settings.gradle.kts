@@ -1,0 +1,8 @@
+include("simple")
+include("with-constraint")
+include("with-error")
+include("with-module-replacement")
+include("with-dependency-substitution")
+include("with-component-selection")
+include("with-component-md-rule")
+include("with-published-module")

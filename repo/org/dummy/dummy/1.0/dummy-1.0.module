@@ -1,0 +1,18 @@
+{
+  "formatVersion": "0.3",
+  "variants": [
+    {
+      "name": "api",
+      "dependencyConstraints": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "prefers": "20.0"
+          },
+          "reason": "Force upgrade to Guava 20"
+        }
+      ]
+    }
+  ]
+}
